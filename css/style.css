@@ -1,0 +1,346 @@
+body{
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#292b2c;
+    background-color:#fff;
+    margin: 0;
+}
+
+/* Stili per i titoli h1,h2,h3,h4 */
+
+.h1,.h2,.h3,.h4,h1,h2,h3,h4{
+    margin-top:0;
+    margin-bottom:.5rem;
+    font-family:inherit;
+    font-weight:500;
+    line-height:1.1;
+    color:inherit
+}
+.h1,h1{
+    font-size:2.5rem
+}
+.h2,h2{
+    font-size:2rem
+}
+.h3,h3{
+    font-size:1.75rem
+}
+.h4,h4{
+    font-size:1.5rem
+}
+
+h1{
+    color: #fff !important;
+    font-weight:700;
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+    font-weight: bolder;
+
+}
+h4{
+    font-size:1.5rem
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:focus,a:hover{
+    color:#014c8c;
+    text-decoration:underline
+        outline-width:0
+}
+
+.p5{
+    margin-top:3rem!important;
+    margin-bottom:3rem!important
+}
+.p4{
+    margin-top:1.5rem!important;
+    margin-bottom:1.5rem!important
+}
+.p2{
+    padding-top:.5rem!important;
+    padding-bottom:.5rem!important
+}
+.p4{
+    margin-top:1.5rem!important;
+    margin-bottom:1.5rem!important
+}
+.p2{
+    margin-top:.5rem!important;
+    margin-bottom:1.5rem!important
+}
+.c6{
+    -webkit-box-flex:0;
+    -webkit-flex:0 0 50%;
+    -ms-flex:0 0 50%;
+    flex:0 0 50%;
+    max-width:47%;
+    position:relative;
+    width:100%;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px
+}
+
+
+
+    @media screen and (max-width:1200px){
+        .c6{
+            flex:0 0 46%;
+        }
+    }
+    @media screen and (max-width:992px){
+        .c6{
+
+            flex: 0 0 45%;
+            max-width: 100%;
+        }
+    }
+    @media screen and (max-width:768px){
+        .c6{
+            max-width:90%;
+            flex: 0 0 45%;
+        }
+    }
+    @media screen and (max-width:576px){
+        .c6{
+            max-width:80%;
+        }
+    }
+
+.c4{
+    -webkit-box-flex:0;
+    -webkit-flex:0 0 33.333333%;
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 30%;
+    max-width:33.333333%;
+    position:relative;
+    width:100%;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px
+}
+
+
+    @media screen and (max-width:1200px){
+        .c4{
+
+        }
+    }
+    @media screen and (max-width:768px){
+        .c4{
+
+            flex: 0 0 25%;
+        }
+    }
+    @media screen and (max-width:992px){
+        .c4{
+
+            flex: 0 0 27%;
+        }
+    }
+    @media screen and (max-width:576px){
+        .c4{
+
+        }
+    }
+
+.c2{
+    -webkit-box-flex:0;
+    -webkit-flex:0 0 16.666667%;
+    -ms-flex:0 0 16.666667%;
+    flex:0 0 16.666667%;
+    max-width:16.666667%;
+    position:relative;
+    width:100%;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px
+}
+.mo{
+    margin-right:auto!important;
+    margin-left:auto!important
+}
+
+
+
+
+/********** character **********/
+.character img {
+    width: 100%;
+    max-width: 480px;
+}
+
+#characterP {
+    background: linear-gradient(-172deg, #c3feeb 55%, #00FFAD 0);
+}
+#characterP2 {
+    background: linear-gradient(-8deg, #c3feeb 55%, #00FFAD 0);
+}
+
+#characterU {
+    background: #00FFAD;
+}
+/********** banner **********/
+
+#banner {
+    background-size: cover;
+    background-image: url('../img/banner.jpg');
+}
+
+#banner header {
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 80px;
+}
+
+@media screen and (max-width:1200px){
+    #banner h1{
+
+    }
+}
+@media screen and (max-width:992px){
+    #banner h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:768px){
+    #banner h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:576px){
+    #banner h1{
+        font-size: 2.5rem;
+    }
+    
+}
+
+
+
+.bannerText{
+    padding:2rem 1rem;
+    background-color:#eceeef;
+    border-radius:.3rem
+}
+
+@media (min-width:576px){
+    .bannerText{
+        padding:4rem 2rem
+    }
+}
+.container{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding-right:15px;
+    padding-left:15px;
+    width: 80em;
+}
+    @media screen and (max-width:1200px){
+        .container{
+            width:55em;
+            max-width:100%
+        }
+}
+    @media screen and (max-width:992px){
+    .container{
+        width:35em;
+        max-width:100%
+    }
+}
+    @media screen and (max-width:768px){
+        .container{
+            width:30em;
+            max-width:100%
+        }
+}
+    @media screen and (max-width:576px){
+        .container{
+            width:15em;
+            max-width:100%
+        }
+}
+.textLeft{
+    text-align:left!important
+}
+
+.textCenter{
+    text-align:center!important
+}
+.justifyB{
+    -webkit-box-pack:justify!important;
+    -webkit-justify-content:space-between!important;
+    -ms-flex-pack:justify!important;
+    justify-content:space-between!important
+}
+
+.row{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px;
+}
+
+@media screen and (max-width:1200px){
+    .row{
+
+    }
+}
+@media screen and (max-width:992px){
+    .row{
+        flex-direction: column;
+        align-content: center;
+    }
+}
+@media screen and (max-width:768px){
+    .row{
+        flex-direction: column;
+        align-content: center;
+    }
+}
+@media screen and (max-width:576px){
+    .row{
+        flex-direction: column;
+        align-content: center;
+    }
+    
+}
+.alignCenter{
+    -webkit-align-self:center!important;
+    -ms-flex-item-align:center!important;
+    -ms-grid-row-align:center!important;
+    align-self:center!important
+}
+
+table{
+    background-color: rgba(255, 255, 255, 0.5);;
+    width=100%; 
+    border=1;
+    margin: auto;
+}
+td, th {
+    padding: 0.75em;
+    color: black;
+}
